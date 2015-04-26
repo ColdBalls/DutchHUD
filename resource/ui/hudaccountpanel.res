@@ -1,0 +1,112 @@
+"Resource/UI/HudAccountPanel.res"
+{
+	"CHudAccountPanel"
+	{
+		"delta_item_x"			"92"
+		"delta_item_start_y"	"2"
+		"delta_item_end_y"		"24"
+		"PositiveColor"			"0 255 0 255"
+		"NegativeColor"			"255 0 0 255"
+		"delta_lifetime"		"0.6"
+		"delta_item_font"		"primeregular20"
+	}
+	
+	"AccountBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"AccountBG"
+		"xpos"			"9999"
+	}
+	
+	"MetalBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MetalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"90"
+		"tall"				"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 140"
+		"scaleImage"		"1"
+	}	
+	
+	"MetalIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"1"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"255 255 255 255"
+	}
+
+	"MetalIconBG"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIconBG"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"0"
+		"wide"			"18"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"0 0 0 255"
+	}	
+	
+	"AccountValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValue"
+		"xpos"			"40"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"22"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"primeregular24"
+		"fgcolor"		"255 255 255 255"
+	}
+	"AccountValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValueBG"
+		"xpos"			"42"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"50"
+		"tall"			"22"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"primeregular24"
+		"fgcolor"		"0 0 0 255"
+	}	
+}
