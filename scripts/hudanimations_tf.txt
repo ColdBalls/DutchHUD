@@ -205,12 +205,17 @@ event KeyHintMessageHide
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4	
+	
+	Animate	OverhealPanel 	Alpha		"100"		Linear 0.0 0.2
+	Animate	OverhealPanel 	Alpha		"80"			Linear 0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 	
 	Animate	PlayerStatusHealthValue			FgColor		"64 225 219 255"		Accel 0.0 0.0	
 	Animate	PlayerStatusHealthValueSpec		FgColor		"64 225 219 255"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator		FgColor		"64 225 219 255"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"64 225 219 255"		Accel 0.0 0.0
 }
 
 // call to loop HudHealthBonusPulse
@@ -224,8 +229,12 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 
+	Animate	OverhealPanel 	Alpha		"0"		Linear 0.0 0.0
+	
 	Animate	PlayerStatusHealthValue			FgColor		"255 255 255 255"		Accel 0.0 0.0	
 	Animate	PlayerStatusHealthValueSpec		FgColor		"255 255 255 255"		Accel 0.0 0.0	
+	Animate	PlayerStatusHealthValueSpectator		FgColor		"255 255 255 255"		Accel 0.0 0.0	
+	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"255 255 255 255"		Accel 0.0 0.0	
 }
 
 //===========================================
@@ -238,6 +247,8 @@ event HudHealthDyingPulse
 
 	Animate	PlayerStatusHealthValue			FgColor		"238 212 0 255"		Accel 0.0 0.0	
 	Animate	PlayerStatusHealthValueSpec		FgColor		"238 212 0 255"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpectator		FgColor		"238 212 0 255"		Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"238 212 0 255"		Accel 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -255,6 +266,8 @@ event HudHealthDyingPulseStop
 	
 	Animate	PlayerStatusHealthValue			FgColor		"255 255 255 255"		Accel 0.0 0.0	
 	Animate	PlayerStatusHealthValueSpec		FgColor		"255 255 255 255"		Accel 0.0 0.0		
+	Animate	PlayerStatusHealthValueSpectator		FgColor		"255 255 255 255"		Accel 0.0 0.0		
+	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"255 255 255 255"		Accel 0.0 0.0		
 }
 
 //===========================================
@@ -347,9 +360,6 @@ event FlagOutline
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
-
-	Animate classmodelpanel		Position	"0 r169"	        Linear 0.0 0.00001
-
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
@@ -365,6 +375,9 @@ event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	
+	Animate classmodelpanel		Position	"0 r169"	        Linear 0.0 0.0 
+    Animate PlayerStatusClassImage          Alpha       "255"           Linear 0.0 0.0  	
 }
 
 event HudSpyDisguiseFadeOut
@@ -372,7 +385,8 @@ event HudSpyDisguiseFadeOut
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
 
-	Animate classmodelpanel		Position	"0 r140"	        Linear 0.0 0.1
+	Animate classmodelpanel		Position	"0 r140"	        Linear 0.0 0.0 
+    Animate PlayerStatusClassImage          Alpha       "0"           Linear 0.0 0.0  	
 }
 
 //===========================================
@@ -417,14 +431,14 @@ event HudReplayTipOut
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	Position	"c-90 -70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 70"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-51 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-51 46"	Spline 0.001 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup	Position	"c-90 70"	Linear 0.0 0.001
-	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.001 0.2
+	Animate HudTournamentSetup	Position	"c-51 46"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-51 -70"	Spline 0.001 0.2
 }
 
 
