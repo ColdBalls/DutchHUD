@@ -181,8 +181,8 @@ Scheme
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.Button.ArmedBgColor					"16 100 180 255"
+		ReplayBrowser.Button.DepressedBgColor				"16 100 180 255"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -192,33 +192,34 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
-		Econ.Button.DepressedFgColor						"Black"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.BgColor									"255 255 255 60"
+		Econ.Button.FgColor									"255 255 255 255"
+		Econ.Button.ArmedBgColor							"206 32 41 255"
+		Econ.Button.ArmedFgColor							"255 255 255 255"
+		Econ.Button.DepressedBgColor						"206 32 41 255"
+		Econ.Button.DepressedFgColor						"255 255 255 255"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorFg					"255 255 255 255"
+		Econ.Button.PresetArmedColorFg						"255 255 255 255"
+		Econ.Button.PresetDepressedColorFg					"255 255 255 255"
+		
+		Econ.Button.PresetDefaultColorBg					"16 100 180 255"
+		Econ.Button.PresetArmedColorBg						"16 100 180 255"
+		Econ.Button.PresetDepressedColorBg					"206 32 41 255"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Selection				"255 255 255 60"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"255 255 255 255"
+		Button.BgColor					"255 255 255 60"
+		Button.ArmedTextColor			"255 255 255 255"
+		Button.ArmedBgColor				"206 32 41 255"
+		Button.SelectedTextColor		"255 255 255 255"
+		Button.SelectedBgColor			"206 32 41 255"
+		Button.DepressedTextColor		"255 255 255 255"
+		Button.DepressedBgColor			"206 32 41 255"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"

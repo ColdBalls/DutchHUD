@@ -9,16 +9,16 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-				
+		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"270"
+		"team1_player_base_y"				"300"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-16"
+		"team1_player_delta_y"				"16"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"300"
+		"team2_player_base_y"				"270"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"16"
+		"team2_player_delta_y"				"-16"
 		
 		"playerpanels_kv"
 		{

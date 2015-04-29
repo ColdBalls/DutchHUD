@@ -351,7 +351,16 @@
 
 	HudDamageIndicator
 	{
-
+		"fieldName" "HudDamageIndicator"
+		"visible" "1"
+		"enabled" "1"
+		"MinimumWidth" "15"
+		"MaximumWidth" "15"
+		"StartRadius" "80"
+		"EndRadius" "80"
+		"MinimumHeight" "30"
+		"MaximumHeight" "60"
+		"MinimumTime" "1" 
 	}
 
 	HudCommentary
@@ -782,8 +791,8 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-300"
-		"ypos"					"c-100"
+		"xpos"					"c0"
+		"ypos"					"r184"
 		"wide"					"300"
 		"tall"					"300"
 	}
@@ -812,13 +821,10 @@
 
 	StatPanel
 	{
-		"fieldName"				"StatPanel"
+		"fieldName"				"StatPanel" //bullshit "on the bright side" panel (I hope!)
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
-		"ypos"					"270"
-		"wide"					"266"
-		"tall"					"120"
+		"xpos"					"9999999"
 	}
 	
 	FreezePanel

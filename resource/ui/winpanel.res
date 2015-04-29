@@ -463,7 +463,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
-		"xpos"			"120"
+		"xpos"			"150"
 		"ypos"			"114"
 		"zpos"			"3"
 		"wide"			"40"
@@ -532,7 +532,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
-		"xpos"			"120"
+		"xpos"			"150"
 		"ypos"			"130"
 		"zpos"			"3"
 		"wide"			"200"
@@ -601,7 +601,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
-		"xpos"			"120"
+		"xpos"			"150"
 		"ypos"			"146"
 		"zpos"			"3"
 		"wide"			"40"
@@ -712,7 +712,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
-		"xpos"			"120"
+		"xpos"			"150"
 		"ypos"			"166"
 		"zpos"			"3"
 		"wide"			"40"
