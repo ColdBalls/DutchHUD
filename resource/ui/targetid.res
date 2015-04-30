@@ -128,7 +128,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"4"
+		"xpos"			"0"
 		"ypos"			"2"
 		"wide"			"56"
 		"tall"			"100"
