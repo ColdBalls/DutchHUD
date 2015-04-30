@@ -95,7 +95,7 @@
 		"xpos"			"c-260"
 		"ypos"			"c-106"
 		"zpos"			"1"
-		"wide"			"152"
+		"wide"			"172"
 		"tall"			"200"
 		"autoResize"	"3"
 		"pinCorner"		"0"

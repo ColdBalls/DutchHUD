@@ -25,11 +25,32 @@
 		"xpos"			"999999"
 	}
 	
+	
+	"AmmoBG2Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"AmmoBG2Red"
+		"xpos"			"c-170"
+		"xpos_minmode"			"c0"
+		"ypos"			"c84"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"				"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 8 0 255"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}		
+	
 	"Divider"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"Divider"
 		"xpos"			"c-171"
+		"xpos_minmode"			"c-1"
 		"ypos"			"c77"
 		"zpos"			"0"
 		"wide"			"2"
@@ -47,6 +68,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DividerBG"
 		"xpos"			"c-169"
+		"xpos_minmode"			"c1"
 		"ypos"			"c79"
 		"zpos"			"-1"
 		"wide"			"2"
@@ -66,6 +88,7 @@
 		"font"			"primeregular40"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"c-168"
+		"xpos_minmode"			"c1"
 		"ypos"			"c80"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"45"
@@ -83,6 +106,7 @@
 		"font"			"primeregular40"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"c-166"
+		"xpos_minmode"			"c3"
 		"ypos"			"c82"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"45"
@@ -100,6 +124,7 @@
 		"font"			"primeregular24"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"c-121"
+		"xpos_minmode"			"c48"
 		"ypos"			"c80"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"41"
@@ -116,6 +141,7 @@
 		"font"			"primeregular24"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"c-119"
+		"xpos_minmode"			"c50"
 		"ypos"			"c82"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"41"
@@ -132,6 +158,7 @@
 		"font"			"primeregular40"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"c-170"
+		"xpos_minmode"			"c0"
 		"ypos"			"c80"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"90"
@@ -149,6 +176,7 @@
 		"font"			"primeregular40"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"c-168"
+		"xpos_minmode"			"c2"		
 		"ypos"			"c82"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"90"

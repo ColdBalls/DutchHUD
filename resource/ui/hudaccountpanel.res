@@ -2,7 +2,7 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"92"
+		"delta_item_x"			"70"
 		"delta_item_start_y"	"2"
 		"delta_item_end_y"		"24"
 		"PositiveColor"			"0 255 0 255"
@@ -18,32 +18,15 @@
 		"xpos"			"9999"
 	}
 	
-	"MetalBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"MetalBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"90"
-		"tall"				"22"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 140"
-		"scaleImage"		"1"
-	}	
-	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"0"
+		"ypos"			"3"
 		"zpos"			"1"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -55,11 +38,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIconBG"
-		"xpos"			"4"
+		"xpos"			"2" //4
 		"ypos"			"4"
 		"zpos"			"0"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -71,7 +54,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"40"
+		"xpos"			"24"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"50"
@@ -82,7 +65,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"
+		"textAlignment"	"West"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"primeregular24"
@@ -92,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueBG"
-		"xpos"			"42"
+		"xpos"			"26"
 		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"50"
@@ -103,7 +86,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"
+		"textAlignment"	"West"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"primeregular24"

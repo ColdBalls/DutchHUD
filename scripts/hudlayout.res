@@ -43,11 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -59,8 +55,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-260"	[$WIN32]
-		"ypos"			"c50"	[$WIN32]
+		"xpos"					"c-260"
+		"xpos_minmode"					"c-90"
+		"ypos"					"c50"
+		"ypos_minmode"					"c114"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"f0"
 		"tall"			"480"
@@ -157,8 +155,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-260"	[$WIN32]
-		"ypos"					"c134"	[$WIN32]
+		"xpos"					"c-260"
+		"ypos"					"c134"
+		"xpos_minmode"					"c94"
+		"ypos_minmode"					"c85"
 		"wide"					"200"
 		"tall"  				"480"
 		"visible" 				"1"
@@ -170,6 +170,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-234"
+		"xpos_minmode"					"c-64"
 		"ypos"					"c10"
 		"wide"					"116"
 		"tall"  				"180"
@@ -209,6 +210,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"c50"
+		"ypos_minmode"		"c38"
 		"wide"	 	"252"
 		"tall"	 	"44"
 		"priority"	"40"
@@ -257,11 +259,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -907,6 +905,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
 		"ypos"			"c16"
 		"wide"			"470"
 		"tall"			"200"
@@ -919,6 +918,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
 		"ypos"			"c16"
 		"wide"			"470"
 		"tall"			"200"
@@ -931,6 +931,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
 		"ypos"			"c16"
 		"wide"			"470"
 		"tall"			"200"
@@ -943,6 +944,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
 		"ypos"			"c-10"
 		"wide"			"470"
 		"tall"			"200"

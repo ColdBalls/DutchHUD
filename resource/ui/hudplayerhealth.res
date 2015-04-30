@@ -21,6 +21,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"c-294"
+		"xpos_minmode"			"c-124"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"0"
@@ -59,14 +60,15 @@
 		"scaleImage"	"1"	
 	}
 	
-	"healthBG"
+	"healthBG1"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthBG"
+		"fieldName"		"HealthBG1"
 		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
 		"ypos"			"c84"
 		"zpos"			"0"
-		"wide"			"180"
+		"wide"			"90"
 		"tall"				"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -76,11 +78,68 @@
 		"scaleImage"		"1"
 	}
 	
+	"healthBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthBG2"
+		"xpos"			"c-170"
+		"xpos_minmode"			"c0"
+		"ypos"			"c84"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"				"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 140"
+		"scaleImage"		"1"
+	}	
+	
+	"healthBG1Blue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthBG1Blue"
+		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
+		"ypos"			"c84"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"				"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 182 234 255"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}
+
+	"healthBG1Red"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"healthBG1Red"
+		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
+		"ypos"			"c84"
+		"zpos"			"0"
+		"wide"			"90"
+		"tall"				"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 8 0 255"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"c-260"
+		"xpos_minmode"			"c-90"
 		"ypos"			"c80"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"90"
@@ -98,6 +157,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
 		"xpos"			"c-258"
+		"xpos_minmode"			"c-88"
 		"ypos"			"c82"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"90"

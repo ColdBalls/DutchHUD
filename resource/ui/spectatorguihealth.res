@@ -85,6 +85,42 @@
 		"fgcolor"		"TFOrange"
 	}		
 
+	"SpecHealthBlueBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SpecHealthBlueBar"
+		"xpos"			"0"
+		"ypos"			"14"
+		"zpos"			"0"
+		"wide"			"44"
+		"tall"				"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 182 234 255"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}	
+	
+	"SpecHealthRedBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"SpecHealthRedBar"
+		"xpos"			"0"
+		"ypos"			"14"
+		"zpos"			"0"
+		"wide"			"44"
+		"tall"				"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 8 0 255"
+		"scaleImage"		"1"
+		"alpha"			"0"
+	}		
+	
 	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"
