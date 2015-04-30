@@ -1263,11 +1263,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c0"
-		"ypos"			"0"
+		"xpos"			"c-80"
+		"ypos"			"c-225"
 		"zpos"			"-102"		
-		"wide"			"480"
-		"tall"			"480"
+		"wide"			"450"
+		"tall"			"450"
 		
 		"autoResize"	"0"
 		"pinCorner"		"0"

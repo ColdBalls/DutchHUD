@@ -113,10 +113,10 @@
 		"xpos"			"99999"
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue2" [$WIN32]
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
+		"fieldName"		"MapInfoContinue2"
 		"xpos"			"c-260"
 		"ypos"			"c100"
 		"zpos"			"6"
@@ -126,7 +126,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -144,19 +144,12 @@
 		"armedBgColor_override" 	"16 100 180 160"
 		"depressedBgColor_override" 	"0 0 0 140"
 		"selectedBgColor_override" 	"0 0 0 140"
-	}
+	}	
 	
-	"MapInfoWatchIntro" [$WIN32]
+	"MapInfoBack2" [$WIN32]
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"99999"
-	}
-	
-	"MapInfoBack" [$WIN32]
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoBack"
+		"fieldName"		"MapInfoBack2"
 		"xpos"			"c-260"
 		"ypos"			"c134"
 		"zpos"			"6"
@@ -166,7 +159,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"BACK (&Q)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -183,20 +176,36 @@
 		"armedBgColor_override" 	"206 32 41 160"
 		"depressedBgColor_override" 	"0 0 0 140"
 		"selectedBgColor_override" 	"0 0 0 140"
-		
-	}
+	}	
 	
+	"MapInfoWatchIntro" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoWatchIntro"
+		"xpos"			"99999"
+	}	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"99999"
 	}					
-
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"99999"
-	}		
+	}
+	"MapInfoBack" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack"
+		"xpos"			"999999"
+	}
+	"MapInfoContinue" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"999999"
+	}	
 }

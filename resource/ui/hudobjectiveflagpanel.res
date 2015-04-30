@@ -364,7 +364,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r80"
+			"ypos"		"r48"
 			"xpos"		"c-60"
 		}
 		

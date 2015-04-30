@@ -23,7 +23,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"120"
+			"wide"			"140"
 			"tall"			"16"
 			"zpos"			"1"
 			
@@ -38,7 +38,7 @@
 				"xpos"			"50"
 				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"68"
+				"wide"			"88"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -56,7 +56,7 @@
 				"xpos"			"51"
 				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"68"
+				"wide"			"88"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -118,7 +118,7 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"borderright"
-				"xpos"			"117"
+				"xpos"			"137"
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"4"
