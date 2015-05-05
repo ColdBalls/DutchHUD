@@ -436,7 +436,7 @@ Scheme
 			"1"
 			{
 				"name"		"Prime-Regular"
-				"tall"		"10"
+				"tall"		"9"
                 "additive"    "0"
                 "antialias" "1"
 			}
