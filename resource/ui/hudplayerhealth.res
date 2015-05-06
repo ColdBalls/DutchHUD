@@ -103,7 +103,7 @@
 		"xpos"			"c-171"
 		"xpos_minmode"			"c-1"
 		"ypos"			"c77"
-		"zpos"			"6"
+		"zpos"			"7"
 		"wide"			"2"
 		"tall"				"36"
 		"autoResize"	"0"
