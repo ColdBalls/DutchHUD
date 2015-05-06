@@ -1,5 +1,21 @@
 "GameMenu" [$WIN32]
 {
+	"FavoriteServerButton1"
+	{
+		"label"			"Favorite Server #1"
+		"command"		"engine Server1"
+	}
+	"FavoriteServerButton2"
+	{
+		"label"			"Favorite Server #2"
+		"command"		"engine Server2"
+	}
+	"FavoriteServerButton3"
+	{
+		"label"			"Favorite Server #3"
+		"command"		"engine server3"
+	}	
+	
 	"ResumeGameButton"
 	{
 		"label"			"Resume"
