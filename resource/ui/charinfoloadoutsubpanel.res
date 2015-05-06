@@ -441,7 +441,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"prmeregular16"
+		"font"			"primeregular16"
 		"fgcolor_override"		"255 255 255 255"		
 		"labelText"		"classname"
 		"textAlignment"	"north"
@@ -459,11 +459,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"primeregular10"
+		"font"			"primelight10"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"215"
+		"ypos"			"217"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"30"
