@@ -2231,6 +2231,142 @@
 		"xpos"			"999999"
 	}	
 	
+	"OpenConsole"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"OpenConsole"
+		"xpos"			"r179"
+		"ypos"			"r29"
+		"zpos"			"2"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"-10"
+			"ypos"			"-17"
+			"wide"			"45"
+			"tall"			"45"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"SymbolS"
+			"textAlignment"	"Center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		
+			
+			"fgcolor"			"255 255 255 255"
+			"defaultFgColor_override" 	"255 255 255 255"
+			"armedFgColor_override" 	"206 32 41 255"
+			"depressedFgColor_override" 	"206 32 41 255"
+			"selectedFgColor_override" 	"206 32 41 255"
+			
+			"bgcolor"			"0 0 0 0"
+			"defaultBgColor_override" 	"0 0 0 0"
+			"armedBgColor_override" 	"0 0 0 0"
+			"depressedBgColor_override" 	"0 0 0 0"
+			
+			"image_drawcolor"	"0 0 0 255"
+			"image_armedcolor"	"0 0 0 255"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"		
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"2"
+				"ypos"			"2"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}	
+	"ToggleMinmode"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToggleMinmode"
+		"xpos"			"r154"
+		"ypos"			"r29"
+		"zpos"			"2"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"-10"
+			"ypos"			"-17"
+			"wide"			"45"
+			"tall"			"45"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"SymbolS"
+			"textAlignment"	"Center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		
+			
+			"fgcolor"			"255 255 255 255"
+			"defaultFgColor_override" 	"255 255 255 255"
+			"armedFgColor_override" 	"206 32 41 255"
+			"depressedFgColor_override" 	"206 32 41 255"
+			"selectedFgColor_override" 	"206 32 41 255"
+			
+			"bgcolor"			"0 0 0 0"
+			"defaultBgColor_override" 	"0 0 0 0"
+			"armedBgColor_override" 	"0 0 0 0"
+			"depressedBgColor_override" 	"0 0 0 0"
+			
+			"image_drawcolor"	"0 0 0 255"
+			"image_armedcolor"	"0 0 0 255"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"		
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"2"
+				"ypos"			"2"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}	
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"

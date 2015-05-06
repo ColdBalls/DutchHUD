@@ -17,16 +17,16 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"20"	[$WIN32]
-		"ypos"			"r68"	[$WIN32]
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"r50"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
-		"alpha"			"0"
+		"alpha"			"255"
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -207,7 +207,7 @@
 				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"0"
+				"origin_y"		"10"
 				"origin_z"		"-102"
 			}
 			"Pyro"

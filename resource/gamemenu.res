@@ -88,6 +88,18 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"ToggleMinmode"
+	{
+		"label" "n"   
+		"command" "engine toggle cl_hud_minmode"
+		"tooltip" "Toggle Centered/Leftside HUD"
+	}
+	"OpenConsole"
+	{
+		"label" "l"   
+		"command" "engine con_enable 1;toggleconsole"
+		"tooltip" "Open console"
+	}	
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file

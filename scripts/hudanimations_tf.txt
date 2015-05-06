@@ -405,8 +405,8 @@ event HudSpyDisguiseFadeIn
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
 	
-	Animate classmodelpanel		Position	"0 r169"	        Linear 0.0 0.0 
-    Animate PlayerStatusClassImage          Alpha       "255"           Linear 0.0 0.0  	
+	//Animate classmodelpanel		Position	"0 r169"	        Linear 0.0 0.0 
+    //Animate PlayerStatusClassImage          Alpha       "255"           Linear 0.0 0.0  	
 }
 
 event HudSpyDisguiseFadeOut
@@ -414,8 +414,8 @@ event HudSpyDisguiseFadeOut
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
 
-	Animate classmodelpanel		Position	"0 r140"	        Linear 0.0 0.0 
-    Animate PlayerStatusClassImage          Alpha       "0"           Linear 0.0 0.0  	
+	//Animate classmodelpanel		Position	"0 r140"	        Linear 0.0 0.0 
+    //Animate PlayerStatusClassImage          Alpha       "0"           Linear 0.0 0.0  	
 }
 
 //===========================================

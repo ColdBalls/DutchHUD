@@ -11,12 +11,12 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"300"
+		"team1_player_base_y"				"320"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"16"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"270"
+		"team2_player_base_y"				"290"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-16"
 		
@@ -118,7 +118,7 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"borderright"
-				"xpos"			"137"
+				"xpos"			"138"
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"4"

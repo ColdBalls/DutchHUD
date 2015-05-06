@@ -1374,7 +1374,18 @@ Scheme
 				"tall"		"48"
 				"antialias"	"1"
 			}
-		}		
+		}
+
+        "SymbolS"		//Main menu icons
+        {
+            "1"
+            {
+                "name"            "Entypo"
+                "tall"        "30"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }  		
 		
 		"blockfont" //Font for covering health meter when player is respawning (comp spectator hud)
 		{
@@ -3110,6 +3121,187 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+		BorderBlack1
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}
+			}
+		}		
+		
+		BorderBlack2
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}
+				
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}
+			}
+		}			
+		BorderBlack3
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "2 0"
+				}
+				
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "1 0"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "2 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 0"
+				}				
+				"2"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 1"
+				}				
+				"3"
+				{
+					"color" "0 0 0 255"
+					"offset" "0 2"
+				}
+			}
+		}	
+	
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4617,6 +4809,11 @@ Scheme
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
-		}			
+		}	
+        "12"
+        {
+            "font" "resource/fonts/Entypo.otf"
+            "name" "Entypo"
+        }		
 	}
 }
