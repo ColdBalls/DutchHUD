@@ -1,40 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
-
-	"Divider"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Divider"
-		"xpos"			"109"
-		"ypos"			"0"
-		"zpos"			"20"
-		"wide"			"2"
-		"tall"				"36"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"scaleImage"		"1"
-	}	
-
-	"DividerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DividerBG"
-		"xpos"			"111"
-		"ypos"			"2"
-		"zpos"			"-2"
-		"wide"			"2"
-		"tall"				"36"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
-		"scaleImage"		"1"
-	}	
-
+{
 	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
@@ -123,10 +88,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"FullChargeOverlay"
-		"xpos"			"112"
+		"xpos"			"114"
 		"ypos"			"7"
 		"zpos"			"1"
-		"wide"			"90"
+		"wide"			"87"
 		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -141,10 +106,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"112"
+		"xpos"			"114"
 		"ypos"			"7"
 		"zpos"			"0"
-		"wide"			"90"
+		"wide"			"87"
 		"tall"			"22"				
 		"autoResize"	"0"
 		"pinCorner"		"0"

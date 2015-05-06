@@ -30,11 +30,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"AmmoBG2Red"
-		"xpos"			"c-170"
-		"xpos_minmode"			"c0"
+		"xpos"			"c-167"
+		"xpos_minmode"			"c3"
 		"ypos"			"c84"
 		"zpos"			"-1"
-		"wide"			"90"
+		"wide"			"88"
 		"tall"				"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -43,43 +43,7 @@
 		"fillcolor"		"255 8 0 255"
 		"scaleImage"		"1"
 		"alpha"			"0"
-	}		
-	
-	"Divider"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Divider"
-		"xpos"			"c-171"
-		"xpos_minmode"			"c-1"
-		"ypos"			"c77"
-		"zpos"			"0"
-		"wide"			"2"
-		"tall"				"36"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"scaleImage"		"1"
-	}	
-
-	"DividerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DividerBG"
-		"xpos"			"c-169"
-		"xpos_minmode"			"c1"
-		"ypos"			"c79"
-		"zpos"			"-1"
-		"wide"			"2"
-		"tall"				"36"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"
-		"scaleImage"		"1"
-	}	
+	}			
 	
 	"AmmoInClip"
 	{

@@ -217,6 +217,8 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValueSpectator		FgColor		"64 225 219 255"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"64 225 219 255"		Accel 0.0 0.0
 	
+	Animate	DividerBlue 	Alpha		"255"		Linear 0.0 0.0
+	
 	Animate	healthBG1Blue 	Alpha		"160"		Linear 0.0 0.2
 	Animate	healthBG1Blue 	Alpha		"40"			Linear 0.2 0.4	
 	
@@ -241,6 +243,8 @@ event HudHealthBonusPulseStop
 	Animate	PlayerStatusHealthValueSpec		FgColor		"255 255 255 255"		Accel 0.0 0.0	
 	Animate	PlayerStatusHealthValueSpectator		FgColor		"255 255 255 255"		Accel 0.0 0.0	
 	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"255 255 255 255"		Accel 0.0 0.0
+	
+	Animate	DividerBlue 	Alpha		"0"		Linear 0.0 0.0
 
 	Animate	healthBG1Blue 	Alpha		"0"		Accel 0.0 0.0 //remove healthBG1Blue
 	Animate	SpecHealthBlueBar 	Alpha		"0"		Accel 0.0 0.0 //remove healthBG1Blue
@@ -258,10 +262,9 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValueSpec		FgColor		"238 212 0 255"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueSpectator		FgColor		"238 212 0 255"		Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"238 212 0 255"		Accel 0.0 0.0
-	
-//	Animate	healthBG1Red 	Alpha		"160"		Linear 0.0 0.3
-//	Animate	healthBG1Red 	Alpha		"40"			Linear 0.3 0.6
 
+	Animate	DividerYellow		Alpha		"255"		Linear 0.0 0.0	
+	
 	Animate	healthBG1Red		Alpha		"160"		Linear 0.0 0.075
 	Animate	healthBG1Red		Alpha		"130"			Linear 0.125 0.075	
 
@@ -286,6 +289,8 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValueSpec		FgColor		"255 255 255 255"		Accel 0.0 0.0		
 	Animate	PlayerStatusHealthValueSpectator		FgColor		"255 255 255 255"		Accel 0.0 0.0		
 	Animate	PlayerStatusHealthValueFreezePanel		FgColor		"255 255 255 255"		Accel 0.0 0.0
+	
+	Animate	DividerYellow		Alpha		"0"		Linear 0.0 0.0		
 
 	Animate	healthBG1Red 	Alpha		"0"		Accel 0.0 0.0 //remove healthBG1Red	
 	Animate	SpecHealthRedBar 	Alpha		"0"		Accel 0.0 0.0 //remove healthBG1Red	
