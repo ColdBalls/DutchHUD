@@ -453,6 +453,7 @@
 		"PaintBackgroundType"	"0"
 		
 		"model_xpos"		"0"
+		"model_ypos"		"18"
 		"model_center_y"	"1"
 		"model_wide"		"45"
 		"model_tall"		"22"
@@ -486,16 +487,16 @@
 			{
 			"ControlName" "ImagePanel"
 			"fieldName" "TitleBackground"
-			"xpos" "4"
+			"xpos" "2"
 			"ypos" "2"
 			"zpos" "-1"
-			"wide" "192"
+			"wide" "196"
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
 			"visible" "1"
 			"enabled" "1"
-			"fillcolor" "0 0 0 200"
+			"fillcolor" "0 0 0 100"
 			}	
 			
 		"itemmodelpanel"
