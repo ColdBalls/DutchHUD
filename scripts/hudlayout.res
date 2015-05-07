@@ -1,5 +1,237 @@
 "Resource/HudLayout.res"
 {
+
+//////// HUD crosshairs here ////////
+
+	HUDcrosshair1
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshair1"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"1"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	HUDcrosshair2
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshair2"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"2"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	HUDcrosshair3
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshair3"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"3"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	HUDcrosshair4
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshair4"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"4"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	HUDcrosshair5
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshair5"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"5"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}	
+	
+	////// Pulsating HUD crosshairs here. These crosshairs change colors when you do damage //////
+	
+	HUDcrosshairPulse1
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshairPulse1"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"1"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}	
+	
+	HUDcrosshairPulse2
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshairPulse2"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"2"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}	
+
+	HUDcrosshairPulse3
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshairPulse3"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"3"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}	
+
+	HUDcrosshairPulse4
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshairPulse4"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"4"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
+
+	HUDcrosshairPulse5
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HUDcrosshairPulse5"
+		
+		"visible"		"0"
+		"enabled"		"0"
+
+		"xpos"			"c-100"
+		"ypos"			"c-100"
+		"zpos"			"2"		
+		
+		"wide"			"200"
+		"tall"			"200"
+
+		"font"			"crosshair30"
+		"labelText"		"5"
+		
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}	
+
+	////// End of Pulsating Crosshairs //////	
+	
+	
+
+
+//////// End of HUD crosshairs ////////
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

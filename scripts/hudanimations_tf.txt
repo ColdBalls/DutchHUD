@@ -786,7 +786,22 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+
+	Animate HUDcrosshairPulse1 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate HUDcrosshairPulse1 	FgColor 	"255 255 255 255" 	Linear 0.25 0.10001
+
+	Animate HUDcrosshairPulse2 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate HUDcrosshairPulse2 	FgColor 	"255 255 255 255" 	Linear 0.25 0.10001
+
+	Animate HUDcrosshairPulse3 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate HUDcrosshairPulse3 	FgColor 	"255 255 255 255" 	Linear 0.25 0.10001
+
+	Animate HUDcrosshairPulse4 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate HUDcrosshairPulse4 	FgColor 	"255 255 255 255" 	Linear 0.25 0.10001
+
+	Animate HUDcrosshairPulse5 	FgColor 	"255 0 0 255" 		Linear 0.0 0.00001
+	Animate HUDcrosshairPulse5 	FgColor 	"255 255 255 255" 	Linear 0.25 0.10001	
+
 }
 
 //===========================================

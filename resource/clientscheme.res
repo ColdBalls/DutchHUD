@@ -1406,7 +1406,479 @@ Scheme
 				"tall"		"64"
 				"antialias"	"1"
 			}
+		}	
+
+		////// Crosshair Fonts ///////
+		
+		"crosshair8"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"8"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair10"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"10"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair12"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"12"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair14"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"14"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair16"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"16"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair18"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"18"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair20"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"20"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+
+		"crosshair20outline"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"20"
+				"antialias"	"1"
+				"outline"	"1"	
+				"additive"	 "0"
+			}
 		}		
+		
+		"crosshair22"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"22"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair24"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"24"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair26"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"26"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair28"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"28"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair30"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"30"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair32"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"32"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair34"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"34"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair36"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"36"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair38"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"38"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
+		"crosshair40"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"40"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair42"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"42"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}		
+		"crosshair44"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"44"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair46"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"46"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}	
+		"crosshair48"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"48"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshair50"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"50"
+				"antialias"	"1"
+				"additive"	 "0"
+			}
+		}
+
+		////// Crosshair with outlines, not antialiased //////
+		
+		"crosshairoutline8"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"8"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline10"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"10"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline12"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"12"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline14"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"14"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline16"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"16"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline18"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"18"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline20"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"20"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+
+		"crosshairoutline20outline"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"20"
+				"outline"	"1"
+				"outline"	"1"	
+				"additive"	 "0"
+			}
+		}		
+		
+		"crosshairoutline22"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"22"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline24"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"24"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline26"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"26"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline28"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"28"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline30"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"30"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline32"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"32"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline34"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"34"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline36"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"36"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline38"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"38"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}		
+		"crosshairoutline40"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"40"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline42"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"42"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}		
+		"crosshairoutline44"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"44"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline46"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"46"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}	
+		"crosshairoutline48"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"48"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}
+		"crosshairoutline50"
+		{
+			"1"
+			{
+				"name"		"Crosshairs Regular"
+				"tall"		"50"
+				"outline"	"1"
+				"additive"	 "0"
+			}
+		}			
 		
 		CenterPrintText
 		{
@@ -4828,8 +5300,13 @@ Scheme
         }	
         "13"
         {
-            "font" "resource/fonts/kameradings.ttf"
+            "font" "resource/fonts/kameradings.ttf" //Font for the taunt loadout button
             "name" "Kamera Dings"
+        }	
+        "13"
+        {
+            "font" "resource/fonts/crosshairs.ttf"
+            "name" "Crosshairs Regular"
         }			
 	}
 }
