@@ -109,8 +109,8 @@ Scheme
 		
 		"ItemAttribLevel"						"255 255 255 255"
 		"ItemAttribNeutral"						"235 226 202 255"
-		"ItemAttribPositive"					"64 225 219 255"
-		"ItemAttribNegative"					"255 8 0 255"
+		"ItemAttribPositive"					"153 204 255 255"
+		"ItemAttribNegative"					"255 64 64 255"
 
 		"ItemSetName"							"225 255 15 255"
 		"ItemSetItemEquipped"					"149 175 12 255"
@@ -2528,57 +2528,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Prime-Regular"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	 "0"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Prime-Regular"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"500"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	 "0"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Prime-Regular"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	 "0"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Prime-Regular"
 				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"900"
-				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+				"additive"	 "0"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"16"
-				"tall_hidef"	"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"name"		"Prime-Regular"
+				"tall"		"20"
+				"antialias"	"1"
+				"additive"	 "0"
 			}
 		}
 		// this is the symbol font
