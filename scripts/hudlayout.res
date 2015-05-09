@@ -227,8 +227,160 @@
 
 	////// End of Pulsating Crosshairs //////	
 	
+	////// Fighter Pilot crosshair //////
 	
-
+	FighterPilotCrosshair
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"FighterPilotCrosshair"
+		
+		"visible"			"0" //set these two to "1" to enable the whole fighter pilot crosshair
+		"enabled"			"0"
+		
+		"wide"				"f0"
+		"tall"				"480"	
+		
+		"FighterPilotOuterTop"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FighterPilotOuterTop"
+			"xpos"          "c"
+			"ypos"          "55"
+			"zpos"          "-5"
+			"wide"          "1"
+			"tall"          "170"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "30"
+		}
+		"FighterPilotOuterLeft"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FihgterPilotOuterLeft"
+			"xpos"          "c-349"
+			"xpos_lodef"    "279"
+			"xpos_hidef"    "309"
+			"ypos"          "240"
+			"zpos"          "-5"
+			"wide"          "330"
+			"tall"          "1"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "30"
+		}
+		"FighterPilotOuterRight"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FighterPilotOuterRight"
+			"xpos"          "c19"
+			"xpos_lodef"    "279"
+			"xpos_hidef"    "309"
+			"ypos"          "240"
+			"zpos"          "-5"
+			"wide"          "330"
+			"tall"          "1"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "30"
+		}
+		"FighterPilotInnerTop"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FighterPilotInnerTop"
+			"xpos"          "c"
+			"xpos_lodef"    "279"
+			"xpos_hidef"    "309"
+			"ypos"          "187"
+			"zpos"          "-5"
+			"wide"          "1"
+			"tall"          "38"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "85"
+		}
+		"FighterPilotInnerBottom"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FighterPilotInnerBottom"
+			"xpos"          "c"
+			"xpos_lodef"    "279"
+			"xpos_hidef"    "309"
+			"ypos"          "254"
+			"zpos"          "-5"
+			"wide"          "1"
+			"tall"          "38"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "125"
+		}
+		"FighterPilotInnerLeft"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FighterPilotInnerLeft"
+			"xpos"          "c-69"
+			"xpos_lodef"    "279"
+			"xpos_hidef"    "309"
+			"ypos"          "240"
+			"zpos"          "-5"
+			"wide"          "50"
+			"tall"          "1"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "85"
+		}
+		"FighterPilotInnerRight"
+		{
+			"ControlName"       "ImagePanel"
+			"fieldName"     "FighterPilotInnerRight"
+			"xpos"          "c19"
+			"xpos_lodef"    "279"
+			"xpos_hidef"    "309"
+			"ypos"          "240"
+			"zpos"          "-5"
+			"wide"          "50"
+			"tall"          "1"
+			"tall_lodef"    "206"
+			"tall_hidef"    "212"
+			"autoResize"    "0"
+			"pinCorner"     "0"
+			"visible"       "1"
+			"enabled"       "1"
+			"fillcolor"     "255 255 255 255"
+			"alpha" "85"
+		}
+	}
+	
+	////// End of Fighter Pilot crosshair //////	
 
 //////// End of HUD crosshairs ////////
 
