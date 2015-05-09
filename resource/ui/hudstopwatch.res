@@ -84,19 +84,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"primeregular14"
-		"labelText"		"%stopwatchlabel%"
-		"textAlignment"		"East"
-		"xpos"			"c30"
-		"ypos"			"5"
-		"zpos"			"4"
-		"wide"			"200"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"1"
+		"xpos"			"99999"
 	}
 
 	"HudStopWatchDescriptionBG"
