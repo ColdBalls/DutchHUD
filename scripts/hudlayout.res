@@ -801,17 +801,17 @@
 		"enabled" "1"
 		"xpos"	 "r640"
 		"ypos"	 "12"
-		"wide"	 "628"
-		"tall"	 "468"
+		"wide"	 "632"
+		"tall"	 "472"
 
 		"MaxDeathNotices" "4"
 		"IconScale"	  "1"
-		"LineHeight"	  "16"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"primeregular12"
+		"TextFont"		"primeregular10"
 		
 		"TeamBlue"		"16 100 180 255"
 		"TeamRed"		"206 32 41 255"
